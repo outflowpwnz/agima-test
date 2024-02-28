@@ -1,0 +1,18 @@
+{
+  "extends": [
+    "stylelint-config-standard",
+    "stylelint-config-standard-scss",
+    "stylelint-config-rational-order"
+  ],
+  "plugins": [
+    "stylelint-order",
+    "stylelint-scss"
+  ],
+  "rules": {
+    "color-named": "never",
+    "indentation": 2,
+    "color-hex-case": "upper",
+    "selector-class-pattern": "^[_a-zA-Z0-9-]+$",
+    "declaration-no-important": true
+  }
+}

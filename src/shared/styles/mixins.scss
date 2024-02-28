@@ -1,0 +1,25 @@
+@import "variables";
+
+@mixin br-mobile {
+  @media (min-width: $br-mobile + px) {
+    @content
+  }
+}
+
+@mixin br-tablet {
+  @media (min-width: $br-tablet + px) {
+    @content
+  }
+}
+
+@mixin br-desktop {
+  @media (min-width: $br-desktop + px) {
+    @content
+  }
+}
+
+@mixin br-desktop-max {
+  @media (min-width: $br-desktop-max + px) {
+    @content
+  }
+}

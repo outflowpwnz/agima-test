@@ -1,0 +1,62 @@
+{
+  "name": "quasar-project",
+  "version": "0.0.1",
+  "description": "A Quasar Project",
+  "productName": "App",
+  "author": "Nikolay Yushin <niko.tatt007@gmail.com>",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development quasar dev",
+    "build": "cross-env NODE_ENV=production quasar build",
+    "stylelint": "stylelint \"**/*.scss\" --fix",
+    "lint": "eslint --ext .js,.ts,.vue ./",
+    "format": "prettier --write \"**/*.{js,ts,vue,scss,html,md,json}\" --ignore-path .gitignore"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.16.4",
+    "@tanstack/vue-query": "^5.12.2",
+    "@vuelidate/core": "^2.0.3",
+    "axios": "^1.2.1",
+    "core-js": "^3.6.5",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.3.1",
+    "pinia": "^2.0.11",
+    "quasar": "^2.6.0",
+    "vue": "^3.0.0",
+    "vue-router": "^4.0.0"
+  },
+  "devDependencies": {
+    "@quasar/app-webpack": "^3.0.0",
+    "@types/node": "^12.20.21",
+    "@typescript-eslint/eslint-plugin": "^5.10.0",
+    "@typescript-eslint/parser": "^5.10.0",
+    "eslint": "^8.10.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-vue": "^9.0.0",
+    "group-css-media-queries-loader": "^4.3.0",
+    "mini-css-extract-plugin": "^2.7.6",
+    "prettier": "^2.8.8",
+    "stylelint": "^15.11.0",
+    "stylelint-config-rational-order": "^0.1.2",
+    "stylelint-config-standard": "^34.0.0",
+    "stylelint-config-standard-scss": "^11.1.0",
+    "stylelint-order": "^6.0.3",
+    "stylelint-scss": "^5.3.1"
+  },
+  "browserslist": [
+    "last 10 Chrome versions",
+    "last 10 Firefox versions",
+    "last 4 Edge versions",
+    "last 7 Safari versions",
+    "last 8 Android versions",
+    "last 8 ChromeAndroid versions",
+    "last 8 FirefoxAndroid versions",
+    "last 10 iOS versions",
+    "last 5 Opera versions"
+  ],
+  "engines": {
+    "node": ">= 12.22.1",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  }
+}

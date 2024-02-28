@@ -1,0 +1,8 @@
+@import "variables";
+
+@function rem($size) {
+  $rem-value: calc($size / $step);
+  $rem-step: calc($step / 10);
+
+  @return calc(#{round($rem-value)} * #{$rem-step}rem);
+}

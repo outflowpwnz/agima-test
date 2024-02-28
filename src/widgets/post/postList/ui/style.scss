@@ -1,0 +1,17 @@
+@import "@shared/styles";
+
+.post-list {
+  display: grid;
+  grid-template-rows: 1fr auto;
+  gap: 16px;
+  width: 100%;
+  height: #{calc(100vh - rem(100))};
+
+  &__items {
+    display: grid;
+    grid-auto-rows: auto;
+    grid-template-columns: repeat(3, 1fr);
+    gap: rem(16);
+    overflow: auto;
+  }
+}

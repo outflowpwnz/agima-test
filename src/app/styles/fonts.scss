@@ -1,0 +1,16 @@
+@font-face {
+  font-weight: 600;
+  font-family: Montserrat;
+  font-style: normal;
+  src: url('fonts/montserrat/Montserrat-SemiBold.woff') format('woff'),
+    url('fonts/montserrat/Montserrat-SemiBold.woff2') format('woff2');
+}
+
+@font-face {
+  font-weight: 400;
+  font-family: Roboto;
+  font-style: normal;
+  src: url('fonts/roboto/Roboto.woff') format('woff'),
+    url('fonts/roboto/Roboto.woff2') format('woff2'),
+    url('fonts/roboto/Roboto.ttf') format('truetype');
+}

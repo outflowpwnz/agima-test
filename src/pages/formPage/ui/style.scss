@@ -1,0 +1,7 @@
+@import "src/shared/styles";
+
+.form-page {
+  h1 {
+    @extend %main;
+  }
+}

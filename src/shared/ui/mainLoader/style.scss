@@ -1,0 +1,14 @@
+@import "@shared/styles";
+
+.main-loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: $ui-index-6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100dvh;
+  background-color: rgba($c-black, .3);
+}

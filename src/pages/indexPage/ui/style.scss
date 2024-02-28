@@ -1,0 +1,7 @@
+@import "src/shared/styles";
+
+.index-page {
+  h1 {
+    @extend %main;
+  }
+}
