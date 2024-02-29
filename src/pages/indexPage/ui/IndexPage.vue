@@ -1,7 +1,8 @@
 <template>
   <q-page class="index-page" padding>
-    <h1>Hello</h1>
-    <ChildsAudioPlayer />
+    <div class="index-page__player">
+      <ChildsAudioPlayer />
+    </div>
   </q-page>
 </template>
 
