@@ -1,4 +1,7 @@
 # Quasar App (quasar-project)
+```bash
+node v20.9.0
+```
 
 A Quasar Project
 
