@@ -4,7 +4,7 @@ $f-montserrat: 'Montserrat', $font-post-fix;
 $f-roboto: 'Roboto', $font-post-fix;
 
 /* ui-step */
-$step: 4;
+$step: 1;
 
 /*   Color variables   */
 $c-white: #FFF;
@@ -12,6 +12,9 @@ $c-black: #1D1D1D;
 $c-gray: #EBEBF2;
 $c-red: #FF3B30;
 $c-green: #39E8A5;
+$c-primary: #05AC6A;
+$c-secondary: #1C274C;
+$c-tertiary: #C5C6C5;
 
 
 /*  BREAKPOINTS */
@@ -20,6 +23,9 @@ $br-tablet: 768;
 $br-desktop: 1024;
 $br-desktop-max: 1920;
 
+/* TRANSITIONS */
+$tt-base: .15s;
+$tt-rotate: 10s;
 
 /* ui-index */
 $ui-index-1: 1; // Для наползающих элементов в общем потоке

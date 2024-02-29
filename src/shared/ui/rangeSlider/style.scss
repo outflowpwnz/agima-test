@@ -1,0 +1,94 @@
+@import "@shared/styles";
+
+.range-slider {
+  position: relative;
+
+  &__background {
+    position: absolute;
+    top: 50%;
+    z-index: 1;
+    width: calc(100% - rem(4));
+    margin: 0 rem(2);
+    background-color: rgba($c-tertiary, 0.5);
+    transform: translateY(-50%);
+  }
+
+  &__progress {
+    width: 100%;
+    height: rem(2);
+    background-image: linear-gradient(to right, $c-primary 85%, transparent 100%);
+    transition: width $tt-base ease;
+  }
+
+  &__input {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    background: transparent;
+    appearance: none;
+
+    &:focus {
+      outline: none
+    }
+
+    &::-ms-track {
+      width: 100%;
+      color: transparent;
+      background: transparent; 
+      border-color: transparent;
+      cursor: pointer;
+    }
+
+    &::-webkit-slider-thumb {
+      width: rem(12);
+      height: rem(12);
+      background: $c-primary;
+      border: none;
+      border-radius: 50%;
+      transform: translateY(rem(2));
+      cursor: pointer;
+      appearance: none;
+    }
+    
+    /* All the same stuff for Firefox */
+    &::-moz-range-thumb {
+      width: rem(12);
+      height: rem(12);
+      background: $c-primary;
+      border: none;
+      border-radius: 50%;
+      transform: translateY(rem(2));
+      cursor: pointer;
+    }
+    
+    /* All the same stuff for IE */
+    &::-ms-thumb {
+      width: rem(12);
+      height: rem(12);
+      background: $c-primary;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+    }
+  }
+
+  &--primary &__progress {
+    height: rem(4);
+  }
+  
+  &--primary &__input { 
+    &::-webkit-slider-thumb {
+      background: transparent;
+    }
+    
+    /* All the same stuff for Firefox */
+    &::-moz-range-thumb {
+      background: transparent;
+    }
+    
+    /* All the same stuff for IE */
+    &::-ms-thumb {
+      background: transparent;
+    }
+  }
+}

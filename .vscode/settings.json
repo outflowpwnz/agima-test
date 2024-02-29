@@ -9,6 +9,6 @@
   "stylelint.validate": [
     "css",
     "scss"
-],
-  "stylelint.configFile": "D:/projects/meetup-info/3. start-templates/bitrix-start-template/.stylelintrc.json"
+  ],
+  "stylelint.configFile": "D:/pet-projects/agima-test/.stylelintrc.json"
 }
